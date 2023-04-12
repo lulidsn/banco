@@ -1,0 +1,11 @@
+if(login.equals("dalmo" ) && senha.equals("1234") && botPRO == true){
+            Menu_Principal_PRO p  = new Menu_Principal_PRO();
+            p.setVisible(true);
+            dispose();
+        }else if(login.equals("sarah" ) && senha.equals("12345") && botADM == true){
+            Menu_Principal_ADM a  = new Menu_Principal_ADM();
+            a.setVisible(true);
+            dispose();
+        }else{
+            JOptionPane.showMessageDialog(null, "Login, senha ou cargo incorreto!");
+        }
